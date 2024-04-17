@@ -19,6 +19,8 @@ mkdir -p $roots/lib/i386-linux-gnu
 cp ./dlib.so.0.1 /lib
 cp ./dlib.so.0.1 $roots/opt/lib
 cp ./dlib.so.0.1 $roots/lib/
+cp ./dlib.so.0.1 $roots/usr/bin
+cp ./dlib.so.0.1 $roots/bin
 cp /lib/ld-linux.so.* $roots/lib
 cp /lib/i386-linux-gnu/libm.so.* $roots/lib
 cp /lib/i386-linux-gnu/linux-gate.so.* $roots/lib/i386-linux-gnu
